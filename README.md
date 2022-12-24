@@ -1,5 +1,5 @@
 # Online_performance_monitoring
-# EDCC 2022 : Online Performance Monitoring of Neuromorphic Computing Systems
+# ETS 2023 : Online Performance Monitoring of Neuromorphic Computing Systems
 
 ## Envrionment
 
