@@ -18,7 +18,7 @@
 ## To run
 
 ```
-Step 1 : To generate logs, go to Logs_script directory and execute each file in CARLSim. 
+Step 1 : To generate logs, go to Logs_script/ directory and execute each file in CARLSim. 
 ```
 
 ```
@@ -30,12 +30,18 @@ Step 3 : Then run the main inynb file to preprocess the logs and train the model
 ```
 
 ```
+Step 4 : To generate logs with single stuck at fault that manifest as missing/delayed and spurious pikes,
+	  go to Inject_faults/ directory and execute each file within each directory in CARLsim.
+```
+
+```
 Step 4 : Then run the preprocess inynb file to preprocess the unseen logs to evaluate.
 ```
 
 ```
 Step 5 : Then get back to main inynb file for testing.
 ```
+
 
 
 ### To do
