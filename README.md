@@ -22,27 +22,22 @@ Step 1 : To generate logs, go to Logs_script/ directory and execute each file in
 ```
 
 ```
-Step 2 : Create a directory for each crossbar size (32x32, 64x64, and 128x128) and save the generated logs there.
+Step 2 : Create a directory for each crossbar size (32x32, 64x64, and 128x128) and save the generated logs file there under
+	 directories (Output_32x32_precise_1k_logs, Output_64x64_precise_1k_logs, Output_128x128_precise_1k_logs) respectively.
 ```
 
 ```
-Step 3 : Then run the main inynb file to preprocess the logs and train the models.
+Step 3 : Then run the "Main" inynb file to preprocess the logs and train the models.
 ```
 
 ```
-Step 4 : To generate logs with single stuck at fault that manifest as missing/delayed and spurious pikes,
+Step 4 : To generate logs with single stuck at fault that manifest as missing/delayed and spurious spikes,
 	  go to Inject_faults/ directory and execute each file within each directory in CARLsim.
 ```
 
 ```
-Step 4 : Then run the preprocess inynb file to preprocess the unseen logs to evaluate.
-```
-
-```
-Step 5 : Then get back to main inynb file for testing.
+Step 4 : Then run the "Results" inynb file to preprocess the generated logs with single stuck at fault with different utilizations
+	  and then get the fault detection rate.
 ```
 
 
-
-### To do
-Need to upload few more files soon.
