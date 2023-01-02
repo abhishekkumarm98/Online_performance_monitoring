@@ -36,7 +36,7 @@ Step 4 : To generate logs with single stuck at fault that manifest as missing/de
 ```
 
 ```
-Step 4 : Then run the "Results" inynb file to preprocess the generated logs with single stuck at fault with different utilizations
+Step 5 : Then run the "Results" inynb file to preprocess the generated logs with single stuck at fault with different utilizations
 	  and then get the fault detection rate.
 ```
 
