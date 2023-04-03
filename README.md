@@ -13,7 +13,7 @@
 * Xgboost 0.90
 * Catboost 1.0.5
 * Lightgbm 2.2.3
-* CARLSim 5.0.0
+* CARLSim 6.0.0
 
 ## To run
 
