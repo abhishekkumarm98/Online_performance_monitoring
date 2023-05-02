@@ -32,12 +32,13 @@ Step 3 : Then run the "Main" inynb file to preprocess the logs and train the mod
 
 ```
 Step 4 : To generate logs with single stuck at fault that manifest as missing/delayed and spurious spikes,
-	  go to Inject_faults/ directory and execute each file within each directory in CARLsim.
+	  go to Inject_faults/ directory and execute each file within each directory in CARLsim. After this,
+	  create a directory with different utilizations like 10_percent, 20_percent, ..., 50_percent and
+	  save the genrated logs with single stuck at fault in them based on their corresponding utilizations.
 ```
 
 ```
 Step 5 : Then run the "Results" inynb file to preprocess the generated logs with single stuck at fault with different utilizations
 	  and then get the fault detection rate.
 ```
-
 
